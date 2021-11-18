@@ -1,0 +1,2 @@
+# help
+Waiting for connection from Robot! UDP-Connection from 192.168.0.41:1051! Traceback (most recent call last):   File "pprobot_musterloesung.py", line 35, in &lt;module>     rob = PPRobot(IdealPlayer)   File "/home/student/Desktop/mrtpprobot/pprobot_python3_2/PPRobot/__init__.py", line 27, in __init__     self._robot.wait_for_connection()   File "/home/student/Desktop/mrtpprobot/pprobot_python3_2/PPRobot/RobotControl/communication.py", line 399, in wait_for_connection     self._dsocket.sendto(s,adr) TypeError: a bytes-like object is required, not 'str'
